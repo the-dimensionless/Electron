@@ -1,0 +1,25 @@
+{
+  "name": "electron_phone_boot_app",
+  "productName": "PhotoBooth",
+  "version": "1.0.0",
+  "description": "simple electron phone booth app",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rimraf Photobombth-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=app",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sumit Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^14.2.1",
+    "electron-prebuilt": "^1.4.13",
+    "rimraf": "^3.0.2"
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ]
+}

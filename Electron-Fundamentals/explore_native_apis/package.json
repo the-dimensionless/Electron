@@ -1,0 +1,20 @@
+{
+  "name": "explore_native_apis",
+  "productName": "Menu Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/screenshot-demo.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
